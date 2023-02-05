@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Anshio's HTML Lab-1</title>
+</head>
+<form input='fname.pdf'>
+    <label for="fname">Full name:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="Please Enter your Name" maxlength="25" required><br>
+    <label for="email">Email ID:</label><br>
+    <input type="email" id="email" name="email" value="test@example.com" autofocus required><br>
+    <label for="pword">Password:</label><br>
+    <input type="password" id="pword" minlength="6" required><br><br>
+    <label for="category">Select your Category:</label>
+    <select name="category" id="category" required>
+        <option value="student">Student</option>
+        <option value="employee">Employee</option>
+        <option value="freelancer" selected>Freelancer</option>
+    </select><br><br>
+    <label for="eventdate">Event date:</label>
+    <input type="date" id="eventdate" name="eventdate" required><br><br>
+    <input type="radio" id="1ticket" name="tickets" value="1ticket" required>
+    <label for="1ticket">1 Ticket</label>
+    <input type="radio" id="2ticket" name="tickets" value="2ticket" checked="checked" required>
+    <label for="2ticket">2 Tickets</label>
+    <input type="radio" id="3ticket" name="tickets" value="3ticket" required>
+    <label for="3ticket">3 Tickets</label><br><br>
+    <input type="checkbox" id="payment" name="payment" value="OnlinePayment" required>
+    <label for="payment" required> Online Payment</label><br>
+    <label for="notes">Notes:</label><br>
+    <textarea id="notes" name="notes" rows="4" cols="50" placeholder="Please enter your comments"></textarea><br><br>
+    <input type="submit" value="Submit"> 
+</form>
